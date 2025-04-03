@@ -1,0 +1,20 @@
+function construct_target(target, wordbank, memo):
+
+	if target in memo:
+		return memo[target]
+
+	if target == "":
+		return [[]]
+		
+	result = []
+		
+	for each word in wordbank:
+		if target starts with word:
+			new_target = target without word in front
+			new_ways = construct_target(new_target, wordbank, memo)
+			for each way in new_ways:
+				new_way = [word] + way 
+				result.append(new_way)
+	
+	memo[target] = result
+	return result
