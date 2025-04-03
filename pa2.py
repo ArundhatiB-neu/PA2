@@ -1,6 +1,21 @@
 import sys
 import time
 
+# ------------Base case------------
+# If the target is "", return [[]]
+
+# ------------Subproblem Definition------------
+# all_construct(target, wordban, memo) returns a list of all possible combinations 
+# of elements from wordbank that can be concatenated to form the target string.
+
+# ------------Decision------------
+# At each step, we check if any word in the wordbank is a prefix of the current target.
+# If it is, we recursively solve for the remaining part of the target.
+
+# ------------Recursion------------
+# For each valid prefix (word), we call all_construct(remaining_word, wordbank)
+# and then add the word before every combination.
+
 def construct_target(target, wordbank, memo):
     if target in memo:
         return memo[target]
