@@ -1,0 +1,17 @@
+pa2.py --target purple --wordbank purp p ur le purpl
+
+
+Output:
+Solving for: purple
+Solving for: le
+Solving for: 
+Solving for: urple
+Solving for: ple
+Solving for: e
+
+Number of ways: 2
+[
+   ['purp', 'le']
+   ['p', 'ur', 'p', 'le']
+]
+Runtime: 0.000083 seconds

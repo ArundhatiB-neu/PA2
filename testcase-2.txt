@@ -1,0 +1,10 @@
+pa2.py --target hello  --wordbank cat dog mouse
+
+
+Output:
+Solving for: hello
+
+Number of ways: 0
+[
+]
+Runtime: 0.000255 seconds

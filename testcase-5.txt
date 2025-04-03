@@ -1,0 +1,19 @@
+pa2.py --target abc --wordbank a ab abc b bc c     
+
+
+Output:
+Solving for: abc
+Solving for: bc
+Solving for: c
+Solving for: 
+Solving for: 
+Solving for: 
+
+Number of ways: 4
+[
+   ['a', 'b', 'c']
+   ['a', 'bc']
+   ['ab', 'c']
+   ['abc']
+]
+Runtime: 0.000047 seconds

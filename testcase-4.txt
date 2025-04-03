@@ -1,0 +1,20 @@
+pa2.py --target enterapotentpot --wordbank a p ent enter otent pot
+
+
+Output:
+Solving for: enterapotentpot
+Solving for: erapotentpot
+Solving for: apotentpot
+Solving for: potentpot
+Solving for: otentpot
+Solving for: pot
+Solving for: ot
+Solving for: 
+Solving for: entpot
+
+Number of ways: 2
+[
+   ['enter', 'a', 'p', 'otent', 'pot']
+   ['enter', 'a', 'pot', 'ent', 'pot']
+]
+Runtime: 0.000046 seconds

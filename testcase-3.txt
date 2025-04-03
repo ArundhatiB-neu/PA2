@@ -1,0 +1,11 @@
+pa2.py --target ''  --wordbank cat dog mouse 
+
+
+Output:
+Solving for: 
+
+Number of ways: 1
+[
+   []
+]
+Runtime: 0.000055 seconds
